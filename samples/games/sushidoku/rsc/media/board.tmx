@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="12" height="12" tilewidth="128" tileheight="64">
+ <tileset firstgid="1" name="board" tilewidth="128" tileheight="96">
+  <image source="board.png" width="1281" height="1258"/>
+ </tileset>
+ <tileset firstgid="131" name="sushi" tilewidth="128" tileheight="96">
+  <image source="sushi.png" width="1280" height="96"/>
+ </tileset>
+ <layer name="layerTable" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzzZ2Bg8CcCwwAxakE4gET1g838weYecs2nNQAAzp4gHQ==
+  </data>
+ </layer>
+ <layer name="layerBoardLayout" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJwTZWBgEIVibiQsioSRgSiN1eNSgyxOT/W09i+p6gcbAACKWQU+
+  </data>
+ </layer>
+ <layer name="layerBoardDish" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B8AAACQAAB
+  </data>
+ </layer>
+ <layer name="layerBoardActive" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B8AAACQAAB
+  </data>
+ </layer>
+ <layer name="layerBoard" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B8AAACQAAB
+  </data>
+ </layer>
+ <layer name="layerHudBg" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOcBKpjhRQTAMzBwsYLH6jRbwhAwBLywD5
+  </data>
+ </layer>
+ <layer name="layerHudLayout" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B8AAACQAAB
+  </data>
+ </layer>
+ <layer name="layerHudActive" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B8AAACQAAB
+  </data>
+ </layer>
+ <layer name="layerHud" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg40DOAdtMa2Ay0A+gEAC/fAMk=
+  </data>
+ </layer>
+</map>
