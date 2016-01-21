@@ -1,0 +1,14 @@
+p#injectEmail, p#injectPhone {
+  display: inline-block; }
+
+.ivxbtn {
+  border: 0px;
+  border-radius: 0px;
+  background-color: #0089c9;
+  border-right: 1px solid #00c8ff;
+  border-bottom: 1px solid #00c8ff;
+  text-decoration: none;
+  color: #e5e0d9;
+  padding: 0.5em; }
+
+/*# sourceMappingURL=../map/ws/contact.css.map */

@@ -1,0 +1,27 @@
+section ul {
+  display: inline;
+  border: 1px solid;
+  float: left;
+  margin: 1em;
+  margin-left: 0.15em;
+  margin-right: 0.15em;
+  padding: 1em;
+  padding-top: 1.5em; }
+
+section ul li {
+  margin: 0;
+  list-style: none;
+  font-size: 1.15em; }
+
+section ul li ul {
+  border: none;
+  float: none;
+  margin: 0; }
+
+section ul li ul li {
+  list-style: disc;
+  margin: 1em;
+  margin-left: 2em;
+  font-size: 1em; }
+
+/*# sourceMappingURL=../map/ws/services.css.map */
