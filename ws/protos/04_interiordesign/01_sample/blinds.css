@@ -1,0 +1,123 @@
+body {
+  text-align: center;
+  overflow: hidden; }
+
+.aspect-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; }
+
+.aspect-row {
+  display: table-row; }
+
+.aspect-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; }
+
+.scene {
+  display: inline-block; }
+
+@media (orientation: landscape) {
+  .scene {
+    width: 150vh;
+    height: 150vh; } }
+
+@media (orientation: portrait) {
+  .scene {
+    width: 100vw;
+    height: 100vw; } }
+
+.imgbg {
+  max-height: 80%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 0 auto; }
+
+.blinds0 {
+  border: 0px solid #ffffff;
+  position: relative;
+  top: -45%;
+  left: 55%;
+  width: 43%;
+  height: 20%;
+  -webkit-perspective: 60vw;
+  -moz-perspective: 60vw;
+  -ms-perspective: 60vw;
+  perspective: 60vw; }
+
+#blinds1 {
+  border-top: 5px solid #555555;
+  background: rgba(0, 100, 100, 0.15);
+  position: relative;
+  top: 0;
+  left: -23%;
+  width: 100%;
+  height: 98%;
+  -webkit-transform: rotateY(-25deg);
+  -moz-transform: rotateY(-25deg);
+  -ms-transform: rotateY(-25deg);
+  transform: rotateY(-25deg);
+  -webkit-perspective: 50vw;
+  -moz-perspective: 50vw;
+  -ms-perspective: 50vw;
+  perspective: 50vw;
+  float: left; }
+
+.panel {
+  margin-right: 1%;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 9%;
+  height: 100%;
+  float: left;
+  visibility: visible;
+  margin-top: 0.2vh;
+  background: transparent url(../images/blinds/familycollage1.jpg);
+  background-size: 50vh 30vh;
+  background-repeat: no-repeat; }
+
+.shade {
+  width: 100%;
+  height: 100%;
+  background: #000055;
+  opacity: 0.4; }
+
+.panel:nth-child(2) {
+  background-position: -5vh 0; }
+
+.panel:nth-child(3) {
+  background-position: -10vh 0; }
+
+.panel:nth-child(4) {
+  background-position: -15vh 0; }
+
+.panel:nth-child(5) {
+  background-position: -20vh 0; }
+
+.panel:nth-child(6) {
+  background-position: -25vh 0; }
+
+.panel:nth-child(7) {
+  background-position: -30vh 0; }
+
+.panel:nth-child(8) {
+  background-position: -35vh 0; }
+
+.panel:nth-child(9) {
+  background-position: -40vh 0; }
+
+.panel:nth-child(10) {
+  background-position: -45vh 0; }
+
+img.imgfg {
+  position: relative;
+  left: 48.98%;
+  top: -52.2%;
+  width: 50%;
+  display: block; }
+
+/*# sourceMappingURL=../../../../map/ws/protos/04_interiordesign/01_sample/blinds.css.map */
