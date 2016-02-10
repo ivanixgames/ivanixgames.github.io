@@ -1,0 +1,154 @@
+body {
+  text-align: center;
+  overflow: hidden; }
+
+.aspect-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; }
+
+.aspect-row {
+  display: table-row; }
+
+.aspect-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; }
+
+.scene {
+  display: inline-block; }
+
+@media (orientation: landscape) {
+  .scene {
+    width: 150vh;
+    height: 150vh; } }
+
+@media (orientation: portrait) {
+  .scene {
+    width: 100vw;
+    height: 100vw; } }
+
+.imgbg {
+  max-height: 80%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 0 auto; }
+
+.blindsparent {
+  position: relative;
+  top: -74%;
+  left: 42%;
+  width: 45%;
+  height: 40%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.blinds {
+  border-top: 5px solid #555555;
+  background: rgba(0, 100, 100, 0.15);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 98%;
+  -webkit-perspective: 700px;
+  -moz-perspective: 700px;
+  -ms-perspective: 700px;
+  perspective: 700px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  margin-top: 0px;
+  visibility: visible;
+  background: transparent url(../images/blinds/familycollage1.jpg);
+  background-size: 295% 600%;
+  background-repeat: no-repeat;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.shade {
+  width: 100%;
+  height: 100%;
+  background: #000055;
+  opacity: 0.1; }
+
+.panel:nth-child(1) {
+  background-position: 0 0;
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 0% 100%;
+  -moz-transform-origin: 0% 100%;
+  -ms-transform-origin: 0% 100%;
+  transform-origin: 0% 100%; }
+
+.panel:nth-child(2) {
+  background-position: 0 20%;
+  -webkit-transform: rotateX(181deg);
+  -moz-transform: rotateX(181deg);
+  -ms-transform: rotateX(181deg);
+  transform: rotateX(181deg);
+  -webkit-transform-origin: 0% 0%;
+  -moz-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  top: 50%; }
+
+.panel:nth-child(3) {
+  background-position: 0 40%;
+  -webkit-transform: rotateX(360deg);
+  -moz-transform: rotateX(360deg);
+  -ms-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  top: 0%; }
+
+.panel:nth-child(4) {
+  background-position: 0 60%;
+  top: 50%;
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 0% 0%;
+  -moz-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%; }
+
+#blinds1 {
+  left: 50.25%;
+  top: -98%; }
+  #blinds1 .panel {
+    background-position-x: 50%; }
+
+/*# sourceMappingURL=../../../../map/ws/protos/04_interiordesign/02_sample/blinds.css.map */
