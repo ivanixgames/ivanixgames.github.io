@@ -1,1 +1,0 @@
-console.log("idx.js init"),window.addEventListener("message",function(o){if(console.log("parent rcv msg event: "+o),o.origin!==location.origin)return void console.log("onObjFrameMsg: origin mismatch!");var i=o.data;"redirect"===i.k});
