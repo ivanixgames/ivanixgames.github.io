@@ -1,11 +1,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Interior Design</title>
+<title>Photo Puzzle</title>
 
-<link rel="stylesheet" href="/ws/lib/style/scss/style.css" type="text/css" charset="utf-8">
-
+<!--
+<link rel="stylesheet" href="/ws/lib/style/scss/base.css" type="text/css" charset="utf-8">
+-->
 <link rel="stylesheet" href="/ws/lib/style/scss/slider.css" type="text/css" charset="utf-8">
+
 
 
 <!--
@@ -16,14 +18,14 @@
 <script>
     var ivxcfg = {};
 
-    ivxcfg.fm = {"tp":"/slide.ejs","title":"Interior Design","nav":false,"css":"/ws/lib/style/scss/slider","glob":"*/prev.html","sliderDelay":15000,"js":"/ws/lib/js/msgobj","hparent":"/ws/protos/04_interiordesign/preview.html","globArr":["01_sample/prev.html","02_sample/prev.html"],"globStdErr":"","globErr":null};
+    ivxcfg.fm = {"tp":"/slide.ejs","title":"Photo Puzzle","sectionclass":"ivx-img-max-height","nav":false,"glob":"*.png","href":"parent:/ivanix4games/samples/samplePhotoPuzzle/frame.html","globArr":["puzzle3.png","puzzle2.png","puzzle1.png"],"globStdErr":"","globErr":null};
     ivxcfg.ejs = {};    
 </script>
 </head>
 <body>
 
 
-<section id="slider0">
+<section id="slider0" class="ivx-img-max-height" >
     
     
  
@@ -31,44 +33,43 @@
         
         
             
-                <object data="01_sample/prev.html" height="100%" width="100%"></object>
+                <figure ext="png" ><img src="puzzle3.png"  ></figure>
             
         
         
         
             
-                <object data="02_sample/prev.html" height="100%" width="100%"></object>
+                <figure ext="png" ><img src="puzzle2.png"  ></figure>
             
         
         
         
             
-                <object data="01_sample/prev.html" height="100%" width="100%"></object>
+                <figure ext="png" ><img src="puzzle1.png"  ></figure>
             
         
- 
         
- 
+        
             
- 
-    
+                <figure ext="png" ><img src="puzzle3.png"  ></figure>
+            
+        
+
+
 </section>
-<div class = "aspect-wrapper" >
-<div class = "aspect-row" >
-<div class = "aspect-cell">
+<div class="content">
+<p>A photo puzzle game for web and mobile</p>
+
+</div>
     <figcaption>
-    <div class="capbox">
-    <a id="btntitle" hparent="/ws/protos/04_interiordesign/preview.html" href="">Interior Design</a>
+
+    <a id="btntitle" href_mode=""  ivx-href="parent:/ivanix4games/samples/samplePhotoPuzzle/frame.html"> Photo Puzzle</a>
     <a id="btnHome" href="/index.html" >Home</a>
-    </div>
+
     </figcaption>
-</div>
-</div>
-    </div>
+<script type="text/javascript" src="/ws/lib/js/msgobj.js" ></script>
 <script type="text/javascript" src="/ws/lib/js/request-frame.min.js" ></script>
 <script type="text/javascript" src="/ws/lib/js/slider.js" ></script>
-
-<script type="text/javascript" src="/ws/lib/js/msgobj.js" ></script>
 
 
 
