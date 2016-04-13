@@ -1,0 +1,31 @@
+.ivxframe {
+  max-width: 900px;
+  max-height: 600px;
+  max-width: 900px;
+  max-height: 600px;
+  max-width: 900px;
+  max-height: 600px;
+  max-width: 900px;
+  max-height: 600px; }
+  @media (max-width: 3000px) {
+    .ivxframe {
+      width: 88vw;
+      height: 66.16541vw;
+      margin: 5px; } }
+  @media (max-width: 1024px) {
+    .ivxframe {
+      width: 88vw;
+      height: 66.16541vw;
+      margin: 1vw; } }
+  @media (max-width: 800px) {
+    .ivxframe {
+      width: 88vw;
+      height: 66.16541vw;
+      margin: 1vw; } }
+  @media (max-width: 500px) {
+    .ivxframe {
+      width: 88vw;
+      height: 66.16541vw;
+      margin: 1vw; } }
+
+/*# sourceMappingURL=../../../../map/ws/lib/style/scss/framecol1.css.map */
