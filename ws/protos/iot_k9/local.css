@@ -1,0 +1,13 @@
+section img {
+  width: 40vw;
+  border: 2px solid;
+  border-radius: 10px;
+  max-width: 400px; }
+
+section img:nth-child(1) {
+  margin-right: 2vw; }
+
+section img:nth-child(2) {
+  margin-left: 2vw; }
+
+/*# sourceMappingURL=../../../map/ws/protos/iot_k9/local.css.map */
